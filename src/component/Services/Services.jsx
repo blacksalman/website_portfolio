@@ -4,7 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png';
 import Humble from '../../img/humble.png';
 import Glasses from '../../img/glasses.png';
 import Card from '../Card/Card';
-// import Resume from './resume.pdf';
+import Resume from './Resume.pdf';
 import {themeContext} from '../../Context';
 import {motion} from 'framer-motion'
 
@@ -27,7 +27,7 @@ const Services = () => {
               <br/>
               I also test the applications before handover to the testing team.
             </span>
-            <a href="#" download style={{textDecoration:'none'}}>
+            <a href={Resume} download style={{textDecoration:'none'}}>
               <button className="button s-button">Download cv</button>
             </a>
             <div className="blur s-blur1" style={{background:"#ABF1FF94",position: 'relative'}}></div>
