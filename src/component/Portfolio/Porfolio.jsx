@@ -29,7 +29,7 @@ const Porfolio = () => {
             <a href="https://stalwart-gelato-6f88a2.netlify.app">
               <img src={Ecommerce} alt="" />
             </a>
-            <span>Ecommerce</span>
+            <span className='heading'>Ecommerce</span>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -37,7 +37,7 @@ const Porfolio = () => {
           <a href="https://leafy-beijinho-73d128.netlify.app">
            <img src={ChatApp} alt="" />
           </a>
-           <span>ChatApp</span>
+           <span className='heading'>ChatApp</span>
          </div>  
         </SwiperSlide>
         <SwiperSlide>
@@ -45,7 +45,7 @@ const Porfolio = () => {
           <a href="https://sweet-centaur-5981eb.netlify.app">
             <img src={StickyNotes} alt="" />
           </a>
-          <span>StickyNotes</span>
+          <span className='heading'>StickyNotes</span>
         </div>  
         </SwiperSlide>
         <SwiperSlide>
@@ -53,7 +53,7 @@ const Porfolio = () => {
           <a href="https://zippy-biscuit-41b17f.netlify.app">
             <img src={Unsplash} alt="" />
           </a>
-          <span>Unsplash</span>
+          <span className='heading'>Unsplash</span>
         </div>  
         </SwiperSlide>
       </Swiper>

@@ -15,11 +15,9 @@ const Work = () => {
   return (
     <div className="work" id='work'>
         <div className="awesome">
-            <span style={{ color: darkMode ? "white" : "" }}> Works for All these</span>
-            <span>Brands & Clients</span>
-            <span>I work on Instagram, WhatsApp, Facebook product hunt and Twitter tools.
-
-            </span>
+                <span style={{ color: darkMode ? "white" : "" }}> Works for All these</span>
+                <span>Brands & Clients</span>
+                <span>I work on Instagram, WhatsApp, Facebook product hunt and Twitter tools.</span>
             <Link to='contact' spy={true} smooth={true}>
               <button className="button w-button">Hire me</button>
             </Link>
